@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe',verdana,sans-serif;
+}
+
+body
+{
+    background-color: gray;
+    color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1
+{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.input-container
+{
+    margin-bottom: 40px;
+    display:flex;
+    gap: 10px;
+    width: 100px;
+    max-width: 500px;
+}
+
+#task-input
+{
+    padding: 12px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: beige;
+    font-size: medium;
+    flex: 1;
+}
+
+#add-btn
+{
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.board
+{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.column
+{
+    background-color: burlywood;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+}
+
+.column h3
+{
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+}
+
+.task-list
+{
+    display: flex;
+    gap: 10px;
+    flex-direction:column ;
+}
+
+.task-card
+{
+    background-color: blanchedalmond;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-card:hover
+{
+    border-color: azure;
+}
