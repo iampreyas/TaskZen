@@ -6,8 +6,8 @@ function addTask()
         return alert("please enter task");
     }
     let card=document.createElement('div');
-    card.innerText=text;
     card.classList.add('task-card');
+    card.innerHTML=text + '<button class="del-btn">X</button>';
     card.onclick=function()
     {
         if(card.parentElement.id=='todo-list')
@@ -18,6 +18,10 @@ function addTask()
         {
             document.getElementById('done-list').appendChild(card);
         }
+    }
+    card.querySelector('.del-btn').onclick=function()
+    {
+        card.remove();
     }
     document.getElementById('todo-list').appendChild(card);
     document.getElementById('task-input').value="";
