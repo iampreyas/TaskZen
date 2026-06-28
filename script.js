@@ -26,3 +26,8 @@ function addTask()
     document.getElementById('todo-list').appendChild(card);
     document.getElementById('task-input').value="";
 }
+
+function clearDoneTasks()
+{
+    document.getElementById('done-list').innerHTML="";
+}
