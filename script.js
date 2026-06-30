@@ -1,4 +1,3 @@
-let todoScore=0;
 function addTask()
 {
     let text=document.getElementById('task-input').value.trim();
@@ -25,8 +24,6 @@ function addTask()
         card.remove();
     }
     document.getElementById('todo-list').appendChild(card);
-    todoScore=todoScore+1;
-    document.getElementById('todo-count').innerText="("+todoScore+")";
     document.getElementById('task-input').value="";
 }
 
