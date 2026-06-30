@@ -107,6 +107,7 @@ header h1
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .task-card:hover
@@ -117,7 +118,6 @@ header h1
 #todo-list
 {
     background-color: lightgrey;
-    border-bottom: none;
     border-top: 5px solid red;
     padding: 10px;
 }
