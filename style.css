@@ -135,3 +135,18 @@ header h1
     border-top: 5px solid green;
     padding: 10px;
 }
+
+.main-footer
+{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    border-top: 1px solid lightsalmon;
+}
+
+.dev-name
+{
+    color: lightgreen;
+    font-weight: bold;
+}

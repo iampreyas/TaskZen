@@ -32,3 +32,10 @@ function clearDoneTasks()
 {
     document.getElementById('done-list').innerHTML="";
 }
+
+function clearTasks()
+{
+    document.getElementById('todo-list').innerHTML='';
+    document.getElementById('in-progress-list').innerHTML='';
+    document.getElementById('done-list').innerHTML='';
+}
